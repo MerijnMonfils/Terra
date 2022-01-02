@@ -10,3 +10,6 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+.vs/Personal Website/v15/.suo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
