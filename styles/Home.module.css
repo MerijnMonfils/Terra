@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.container h1 {
+  color: var(--color-uros);
+  font-size: 10vw;
+  filter: drop-shadow(10px 10px 3px #000);
+}

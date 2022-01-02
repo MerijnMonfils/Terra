@@ -1,0 +1,54 @@
+:root {
+  --base-color: #353535;
+
+  /* THEMES */
+
+  --dark-theme: rgb(39, 36, 36);
+  --light-theme: rgb(172, 172, 172);
+
+  /* BACKGROUND COLOR */
+  --color-uros: #c8b996;
+  --color-heathrow: #623f22;
+  --color-greyhound: #76634e;
+  --color-migbohr: rgb(25, 22, 20, 0.5);
+
+  /* BORDER COLOR */
+  --color-border: var(--color-migbohr);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background: var(--dark-theme);
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+* {
+  box-sizing: border-box;
+}
