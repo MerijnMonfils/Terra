@@ -1,0 +1,25 @@
+/* BASE */
+@value --base-color from "css/styling.css";
+/* THEMES */
+@value --dark-theme from "css/styling.css";
+@value --light-theme from "css/styling.css";
+/* BACKGROUND COLORS */
+@value --color-uros from "css/styling.css";
+@value --color-heathrow from "css/styling.css";
+@value --color-greyhound from "css/styling.css";
+@value --color-migbohr from "css/styling.css";
+/* BORDER COLOR */
+@value --color-border from "css/styling.css";
+
+path {
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke:#000;
+    cursor: pointer;
+}
+
+path:hover {
+    stroke-width: 5px;
+    fill-opacity: 0.2;
+}
+

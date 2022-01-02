@@ -1,19 +1,19 @@
 :root {
-    --base-color: #353535;
-  
-    /* THEMES */
-  
-    --dark-theme: rgb(39, 36, 36);
-    --light-theme: rgb(172, 172, 172);
-  
-    /* BACKGROUND COLOR */
-    --color-uros: #C8B996;
-    --color-heathrow: #623F22;
-    --color-greyhound: #76634E;
-    --color-migbohr: rgb(25, 22, 20, .5);
-  
-    /* BORDER COLOR */
-    --color-border: var(--color-migbohr);
+  /* BASE */
+  --base-color: #353535;
+
+  /* THEMES */
+  --dark-theme: rgb(39, 36, 36);
+  --light-theme: rgb(172, 172, 172);
+
+  /* BACKGROUND COLOR */
+  --color-uros: #C8B996;
+  --color-heathrow: #623F22;
+  --color-greyhound: #76634E;
+  --color-migbohr: rgb(25, 22, 20, .5);
+
+  /* BORDER COLORS */
+  --color-border: var(--color-migbohr);
 }
 
 *,
