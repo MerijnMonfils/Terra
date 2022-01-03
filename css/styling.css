@@ -36,7 +36,8 @@ body {
   overflow-x: hidden;
 }
 
-/* START NAVBAR */
+/* START NAVBAR 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 header {
   background: var(--color-migbohr);
@@ -148,25 +149,9 @@ nav a:hover {
 }
 
 /* END OF NAVIGATION */
-/* INTRO SECTION
+
+/* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.intro {
-  background: #f45b69;
-  padding: 100px 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-/* TIMELINE */
 
 .timeline ul {
   background: #456990;

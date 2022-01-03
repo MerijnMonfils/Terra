@@ -19,7 +19,7 @@ path {
 }
 
 path:hover {
-    stroke-width: 5px;
-    fill-opacity: 0.2;
+    stroke-width: 8px;
+    fill: var(--color-greyhound);
+    fill-opacity: 0.5;
 }
-
